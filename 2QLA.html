@@ -1,0 +1,43 @@
+
+<html>
+<body>
+    <h1> i am using Brackets complier in my laptop.  </h1>    
+<p id="demo"></p>
+
+<script>
+let N = 20;
+let n = 1
+
+function fun1()
+{
+    if (n <= N)
+    {
+        document.write( n+" ");
+        n++;
+        fun2();
+    }
+    else
+    {
+        return;
+    }
+}
+ 
+
+function fun2()
+{
+    if (n <= N)
+    {
+        document.write(n+" ");
+        n++;
+        fun1();
+    }
+    else
+    {
+        return;
+    }
+}
+ 
+fun1();
+</script>
+</body>
+</html>
